@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="project.css">
+<body>
+ 
+   
+
+<!-- Content will go here -->
+    
+    <!-- Social Media Icons --->
+    <div class="social_icon">
+        <a href="https://instagram.com"><img class="logo" src="images/1.png"></a>
+        <a href="https://twitter.com"><img class="logo" src="images/2.png"></a>
+        <a href="https://facebook.com"><img class="logo" src="images/3.png"></a>
+        <a href="https://pinterest.com"><img class="logo" src="images/5.png"></a>
+     </div>
+    
+    <!-- Navigation -->
+    <nav class="navbar"> 
+          <a class="active" href="home.html">Home</a>
+          <a class="#" href="dresses.html">Dresses</a>
+          <a class="#" href="registration.html">Registration</a>
+          <a class="#" href="login.html">Login</a>
+          <a class="#" href="basket.html">Basket</a>   
+    </nav>
+    
+    <!-- Slide Show -->
+    <section>
+        <img class="slides" src="images/cm1.jpg" style="width: 100%">
+        <img class="slides" src="images/cm6.jpeg" style="width: 100%">
+        <img class="slides" src="images/cm4.jpg" style="width: 100%">
+    </section>
+    
+    <!-- Shop Description -->
+    
+    <section class="home_container" style="max-width:100%">
+      <h2 class="shop_title">L.V. Fashion</h2>
+      <p class="shop_sub_title"><i>The joy of dressing is an art</i></p>
+      <p class="Shop_description_1">
+          All about that new? We got you covered. L.V. Fashion is your one-stop shop for trend led women's clothing at seriously killer prices. At L.V. Fashion we provide you with the latest women's clothes you need to own your own style, delivering you product inspired from the catwalk and the coolest celeb muses of the moment. With hundreds of new products dropping daily, from dresses & tops, to shoes & accessories; all "nothing to wear dilemmas" are gone for good. This is fast fashion accelerated. When it comes to serving you the latest dose of women's fashion, trust in us to keep you the best dressed for less.</p>
+       <p class="Shop_description_1">
+          Dress to impress this season with our new range of must-have dresses. Hit the parties and VIP events in the hottest styles with our new dresses. Featuring trend-led cuts and classic tones from a captivating collection of new in styles which has everything you need to really make an entrance. Fashion is the armor to survive the reality of everyday life.</p>
+        
+        <div class="home_button">
+            <button type="button" class="SHOP_NOW_Button">SHOP NOW</button>
+        </div>
+        
+       </section> 
+  
+    
+    
+     <!-- Slide Show Script -->
+        <script>
+            // Automatic Slideshow - change image every 3 seconds
+            var myIndex = 0;
+            carousel();
+
+            function carousel() {
+                var i;
+                var x = document.getElementsByClassName("slides");
+                for (i = 0; i < x.length; i++) {
+                   x[i].style.display = "none";
+                }
+                myIndex++;
+                if (myIndex > x.length) {myIndex = 1}
+                x[myIndex-1].style.display = "block";
+                setTimeout(carousel, 3000);
+            }
+        </script>
+        
+       
+</body>
+</html>

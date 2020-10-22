@@ -1,0 +1,176 @@
+
+.main{background-color: white;
+    
+}
+.navbar {
+    width: 100%;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    overflow: hidden;
+    background-color: lightseagreen;
+    float: left;
+}
+.navbar a{
+    width: 100%;
+    color: white;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+.navbar a:hover{
+    background-color: #111;
+}
+
+.social_icon{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: black;
+    float: left;
+    color: white;
+}
+
+.logo{
+    height: 30px;
+    width: 30px;
+}
+
+.home_container{
+    padding-top: 10px;
+    text-align: center;
+    padding-bottom: 10px;
+    background-color: white;
+   
+}
+
+.shop_title{
+    font-size: 50px;   
+  
+}
+
+.shop_sub_title{
+    font-size: 30px;
+   
+}
+
+.Shop_description_1{
+    font-size: 20px;
+}
+
+
+.home_button{
+    position: relative;
+    z-index: 1;
+    background: #ffffff;
+    max-width: 360px;
+    margin: 40px auto 20px;
+    padding: 15px;
+    text-align: center;  
+}
+
+.SHOP_NOW_Button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4caf50;
+    width: 100%;
+    padding: 15px;
+    color: #ffffff;
+}
+
+.container{
+    width: 1300px;
+    height: auto;
+    min-height: 140px;
+    margin: 0 auto; 
+}
+
+.gallery{
+    margin: 20px;
+    background-color: aliceblue;
+    border: 1px solid #ccc;
+    float: left;
+    width: 390px;
+}
+
+.gallery img{
+    width: 100%;
+    height: auto;
+}
+
+.desc{
+    padding: 10px;
+    text-align: center;
+    font-style: italic;
+    font-size: 15px;    
+}
+
+.price{
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;   
+}
+
+body{
+    background-image: url(images/bg.jpg);
+    background-repeat: repeat;
+}
+
+.registration_page{
+    width: 360px;
+    padding: 10% 0 0;
+    margin: auto;
+}
+
+.login_page{
+    width: 360px;
+    padding: 10% 0 0;
+    margin: auto;
+}
+
+.form{
+    position: relative;
+    z-index: 1;
+    background: #ffffff;
+    max-width: 360px;
+    margin: 100px auto 100px;
+    padding: 45px;
+    text-align: center;  
+}
+
+.form input{
+    font-family: "Roboto", sans-serif;
+    outline: 1;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.form button{
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4caf50;
+    width: 100%;
+    padding: 15px;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+    
+}
+
